@@ -61,7 +61,7 @@ export function Expertise() {
     <section className="py-20 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <span className="text-[#14B8A6] tracking-widest uppercase">
+          <span className="text-[#A0826D] tracking-widest uppercase">
             What I Do
           </span>
           <h2 className="text-4xl md:text-5xl text-white mt-4">
@@ -73,10 +73,10 @@ export function Expertise() {
           {expertiseAreas.map((area, index) => (
             <div
               key={index}
-              className="group bg-[#0F0F0F] border border-gray-800 p-8 hover:border-[#14B8A6] transition-all duration-300 rounded-xl"
+              className="group bg-[#0F0F0F] border border-gray-800 p-8 hover:border-[#A0826D] transition-all duration-300 rounded-xl"
             >
-              <div className="mb-6 inline-block p-4 bg-[#14B8A6]/10 group-hover:bg-[#14B8A6]/20 transition-colors rounded-lg">
-                <area.icon className="w-8 h-8 text-[#14B8A6]" />
+              <div className="mb-6 inline-block p-4 bg-[#A0826D]/10 group-hover:bg-[#A0826D]/20 transition-colors rounded-lg">
+                <area.icon className="w-8 h-8 text-[#A0826D]" />
               </div>
 
               <h3 className="text-2xl text-white mb-4">
@@ -90,7 +90,7 @@ export function Expertise() {
                 {area.skills.map((skill, skillIndex) => (
                   <span
                     key={skillIndex}
-                    className="px-3 py-1 bg-[#14B8A6]/5 border border-[#14B8A6]/20 text-[#14B8A6] text-sm rounded-full"
+                    className="px-3 py-1 bg-[#A0826D]/5 border border-[#A0826D]/20 text-[#A0826D] text-sm rounded-full"
                   >
                     {skill}
                   </span>

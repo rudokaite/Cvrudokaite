@@ -3,8 +3,8 @@ export function Summary() {
     <section className="py-20 px-6 bg-[#0F0F0F]">
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
-          <span className="text-[#14B8A6] tracking-widest uppercase">About Me</span>
-          <h2 className="text-4xl md:text-5xl text-white mt-4">Professional Summary</h2>
+          <span className="text-[#A0826D] tracking-widest uppercase">About Me</span>
+          <h2 className="text-4xl md:text-5xl text-white mt-4">Short introduction</h2>
         </div>
 
         <div className="text-xl text-gray-300 leading-relaxed space-y-6">

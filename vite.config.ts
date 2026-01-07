@@ -1,12 +1,7 @@
 
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-export default defineConfig({
-  plugins: [react()],
-  base: '/Cvrudokaite/', // 👈 repo name EXACTLY
-})
-
+  import { defineConfig } from 'vite';
+  import react from '@vitejs/plugin-react-swc';
+  import path from 'path';
 
   export default defineConfig({
     plugins: [react()],
@@ -24,6 +19,7 @@ export default defineConfig({
         'input-otp@1.4.2': 'input-otp',
         'figma:asset/f82869a80f906e1c6f7e3d916e35962fe320f428.png': path.resolve(__dirname, './src/assets/f82869a80f906e1c6f7e3d916e35962fe320f428.png'),
         'figma:asset/ea8d13a176bb05967485497ec15e92aafb4f4d8e.png': path.resolve(__dirname, './src/assets/ea8d13a176bb05967485497ec15e92aafb4f4d8e.png'),
+        'figma:asset/aa3456f47156cbfc412ff605acdf69f880902aa0.png': path.resolve(__dirname, './src/assets/aa3456f47156cbfc412ff605acdf69f880902aa0.png'),
         'figma:asset/a29cb6a61a4b30953b062bad709f9d690e929efd.png': path.resolve(__dirname, './src/assets/a29cb6a61a4b30953b062bad709f9d690e929efd.png'),
         'figma:asset/891fe860c52dcd7a3309affa6bbd1251b86eef34.png': path.resolve(__dirname, './src/assets/891fe860c52dcd7a3309affa6bbd1251b86eef34.png'),
         'figma:asset/21939f8fbfefedaaa9c4760682483fe6022b1043.png': path.resolve(__dirname, './src/assets/21939f8fbfefedaaa9c4760682483fe6022b1043.png'),

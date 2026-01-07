@@ -4,7 +4,7 @@ const education = [
   {
     degree: 'UI/UX design',
     institution: 'CodeAcademy',
-    program: 'Programą pažeisgumus',
+    program: 'Program for advanced students',
     period: '09/2023 - 11/2023',
     type: 'Professional Course',
     icon: Award
@@ -41,7 +41,7 @@ export function Education() {
     <section className="py-20 px-6 bg-[#0F0F0F]">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <span className="text-[#14B8A6] tracking-widest uppercase">Academic Background</span>
+          <span className="text-[#A0826D] tracking-widest uppercase">Academic Background</span>
           <h2 className="text-4xl md:text-5xl text-white mt-4">Education</h2>
         </div>
 
@@ -49,11 +49,11 @@ export function Education() {
           {education.map((edu, index) => (
             <div
               key={index}
-              className="group bg-[#0A0A0A] border border-gray-800 p-8 hover:border-[#14B8A6] transition-all duration-300 rounded-xl"
+              className="group bg-[#0A0A0A] border border-gray-800 p-8 hover:border-[#A0826D] transition-all duration-300 rounded-xl"
             >
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-[#14B8A6]/10 group-hover:bg-[#14B8A6]/20 transition-colors shrink-0 rounded-lg">
-                  <edu.icon className="w-6 h-6 text-[#14B8A6]" />
+                <div className="p-3 bg-[#A0826D]/10 group-hover:bg-[#A0826D]/20 transition-colors shrink-0 rounded-lg">
+                  <edu.icon className="w-6 h-6 text-[#A0826D]" />
                 </div>
 
                 <div className="flex-1">
@@ -62,23 +62,23 @@ export function Education() {
                       <h3 className="text-xl text-white mb-1">{edu.degree}</h3>
                       <p className="text-gray-400">{edu.institution}</p>
                     </div>
-                    <span className="text-[#14B8A6] text-sm whitespace-nowrap">
+                    <span className="text-[#A0826D] text-sm whitespace-nowrap">
                       {edu.period}
                     </span>
                   </div>
 
                   <div className="space-y-2">
                     <div className="flex items-center gap-2">
-                      <div className="w-1 h-1 bg-[#14B8A6] rounded-full" />
+                      <div className="w-1 h-1 bg-[#A0826D] rounded-full" />
                       <span className="text-gray-300 text-sm">{edu.program}</span>
                     </div>
-                    <span className="inline-block px-3 py-1 bg-[#14B8A6]/5 border border-[#14B8A6]/20 text-[#14B8A6] text-xs rounded-full">
+                    <span className="inline-block px-3 py-1 bg-[#A0826D]/5 border border-[#A0826D]/20 text-[#A0826D] text-xs rounded-full">
                       {edu.type}
                     </span>
                   </div>
 
                   {edu.note && (
-                    <p className="mt-4 text-gray-400 text-sm italic border-l-2 border-[#14B8A6]/30 pl-3">
+                    <p className="mt-4 text-gray-400 text-sm italic border-l-2 border-[#A0826D]/30 pl-3">
                       {edu.note}
                     </p>
                   )}
@@ -91,21 +91,16 @@ export function Education() {
         {/* Additional skills section */}
         <div className="mt-16 p-8 bg-[#0A0A0A] border border-gray-800 rounded-xl">
           <h3 className="text-2xl text-white mb-6">Additional Interests & Activities</h3>
-          <div className="grid md:grid-cols-3 gap-6 text-gray-300">
+          <div className="grid md:grid-cols-2 gap-6 text-gray-300">
             <div>
-              <div className="w-8 h-1 bg-[#14B8A6] mb-3 rounded-full" />
-              <h4 className="text-[#14B8A6] mb-2">Continuous Learning</h4>
+              <div className="w-8 h-1 bg-[#A0826D] mb-3 rounded-full" />
+              <h4 className="text-[#A0826D] mb-2">Continuous Learning</h4>
               <p className="text-sm">Reading books and staying updated with industry trends</p>
             </div>
             <div>
-              <div className="w-8 h-1 bg-[#14B8A6] mb-3 rounded-full" />
-              <h4 className="text-[#14B8A6] mb-2">Wellness</h4>
-              <p className="text-sm">Regular Pilates practice for balance and focus</p>
-            </div>
-            <div>
-              <div className="w-8 h-1 bg-[#14B8A6] mb-3 rounded-full" />
-              <h4 className="text-[#14B8A6] mb-2">Analytics Enthusiast</h4>
-              <p className="text-sm">Occasional deep dives into Instagram Insights</p>
+              <div className="w-8 h-1 bg-[#A0826D] mb-3 rounded-full" />
+              <h4 className="text-[#A0826D] mb-2">Wellness</h4>
+              <p className="text-sm">I enjoy staying active through sports and fitness to maintain both physical and mental well-being</p>
             </div>
           </div>
         </div>
